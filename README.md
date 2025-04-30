@@ -5,8 +5,11 @@ Next, I wanted to know if its loaded successfully or not hence by importing requ
 Then in the next cell i inspected the data by using dataframes simply which gave me column names and datatypes. The comes the data preprocessing steps like checking for any missing values in any of the columns , for which i got no missing values in the dataset. 
 Then I also checked for any duplicate values and i got none.
 
-The last step was to visualize minimum 2 property trends like molecular weight vs xlogp and xlogp vs compound name. Using matplot library of python for graph plotting i visually represented both of it and named properly. 
+The last step was to visualize at least 2 property trends, like molecular weight vs xlogp and xlogp vs compound name. Using the matplotlib library of Python for graph plotting I visually represented both of them and named them properly. 
 
-The first graph shows for 5 chemical compounds if there is a correlation between molecular weight and xlogp. For instance, the compound ID 2244 with the most xlogp value suggesting more fat-soluble (lipophilicity) with moderate molecular weight out of the 5 compounds where as compound id with 5957 has the lowest xlogp values indicating more water soluble(hydrophilicity) and highest molecular weight.
+The first graph shows if there is a correlation between molecular weight and xlogp for five chemical compounds. For instance, compound ID 2244 has the most xlogp value, suggesting more fat-soluble (lipophilicity) with moderate molecular weight, whereas compound ID 5957 has the lowest xlogp value, indicating more water-soluble (hydrophilicity) and the highest molecular weight.
 
-Similarly, other graph portrays relation between checmical compounds which are in SMILES representation and xlogp. For example, The corner compound at rightside has lowest xlogp values meaning most negative value and compound prefers polar environment and the first three compounds have xlogp values >0 meaning they are positive values they prepfer nonpolar environment.
+Similarly, another graph portrays the relationship between chemical compounds, which are in SMILES representation, and xlogp. For example, the corner compound at right side has lowest xlogp values, meaning the most negative value and compound prefers a polar environment and the first three compounds have xlogp values >0, meaning they are positive values they prefer a nonpolar environment.
+
+How can trends in molecular properties help in solvent selection in drug development?
+Since we have seen that xlogp is the most important property for finding solubility, its higher or lower value helps us know if a drug is water or polar, or which kind of solvent.
